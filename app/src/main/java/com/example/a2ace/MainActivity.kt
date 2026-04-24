@@ -8,13 +8,15 @@ import android.os.Bundle
 import android.widget.*
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import com.example.a2ace.ui.auth.AuthActivity  // ✅ Верно!
+import com.example.a2ace.ui.auth.AuthActivity
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
 import com.google.firebase.auth.FirebaseAuth
 
 class MainActivity : AppCompatActivity() {
+
+
 
 
     private lateinit var inputLink: TextInputEditText
@@ -56,12 +58,14 @@ class MainActivity : AppCompatActivity() {
     }
 
 
+
     private fun initViews() {
         inputLink = findViewById(R.id.inputLink)
         inputLayout = findViewById(R.id.inputLayout)
         btnPlay = findViewById(R.id.btnPlay)
         btnLinks = findViewById(R.id.btnLinks)
         tvStatus = findViewById(R.id.tvStatus)
+
     }
 
     private fun checkInstalledApps() {

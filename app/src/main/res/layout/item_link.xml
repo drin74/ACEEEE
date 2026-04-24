@@ -26,6 +26,7 @@
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:scaleType="centerInside"
+            android:backgroundTint="#0110FF"
             android:background="#FA0000"
             android:padding="8dp"
             app:layout_constraintStart_toStartOf="parent"

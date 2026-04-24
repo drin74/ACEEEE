@@ -13,7 +13,7 @@
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="🎬 Ace Player"
+        android:text=" Смотри и молчи"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent"
@@ -48,7 +48,8 @@
         style="@style/Widget.MaterialComponents.Button"
         android:layout_width="0dp"
         android:layout_height="56dp"
-        android:text="▶️ Воспроизвести"
+        android:backgroundTint="#0110FF"
+        android:text="▶Воспроизвести"
 
         app:iconGravity="textStart"
         app:layout_constraintTop_toBottomOf="@id/inputLayout"
@@ -72,7 +73,7 @@
         android:id="@+id/tvStatus"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="ℹ️ Ожидание ввода..."
+        android:text="Ожидание ввода..."
         android:textSize="14sp"
         android:textColor="?attr/colorOnSurfaceVariant"
         app:layout_constraintTop_toBottomOf="@id/divider"
@@ -86,9 +87,12 @@
         style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="📋 Мои ссылки"
+        android:text="Мои ссылки"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginBottom="24dp"/>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

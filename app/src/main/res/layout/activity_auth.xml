@@ -18,7 +18,7 @@
             android:id="@+id/tvTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="🎬 Ace Player"
+            android:text="Смотри и молчи"
             android:textSize="28sp"
             android:textStyle="bold"
             android:layout_marginBottom="32dp"/>
@@ -68,6 +68,7 @@
             android:id="@+id/btnSubmit"
             android:layout_width="match_parent"
             android:layout_height="56dp"
+            android:backgroundTint="#0110FF"
             android:text="Войти"
             android:layout_marginTop="24dp"/>
 
