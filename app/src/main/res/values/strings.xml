@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Ace Player</string>
+    <string name="title_links">Мои ссылки</string>
+    <string name="hint_ace_link">Ace Stream ID или ссылка</string>
+    <string name="btn_play">▶️ Воспроизвести</string>
+    <string name="btn_links">📋 Мои ссылки</string>
+        <!-- ... существующие строки ... -->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Пароль</string>
+    <string name="bonus_hint">🎁 При регистрации вам начисляется $10,000 виртуальных баллов</string>
+    <string name="toggle_register">Нет аккаунта? Зарегистрироваться</string>
+    <string name="toggle_login">Уже есть аккаунт? Войти</string>
+
+</resources>
